@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma1</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+    <form action="">
+        <h2>Daily emotion </h2>
+        <fieldset id="prviDeo">
+            <legend>Login details</legend>
+            <table>
+                <tr>
+                    <td><label>Name:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password"></td>
+                </tr>
+            </table>    
+        </fieldset>
+        <fieldset id="drugiDeo">
+            <legend>Your feedback</legend>
+            <div>
+                <p>Please check all the emotions that apply to you:</p>
+                <table>
+                    <tr>
+                        <td><label>Angry</label></td>
+                        <td><input type="checkbox" name="emocija"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Sad</label></td>
+                        <td><input type="checkbox" name="emocija" value="sad"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Happy</label></td>
+                        <td><input type="checkbox" name="emocija" value="happy"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Ambivalent</label></td>
+                        <td><input type="checkbox" name="emocija" value="ambivalent"></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <p> How satisfied were you with our service?</p>
+                <table>
+                    <tr>
+                        <td><label>Very satisfied</label></td>
+                        <td><input type="radio" name="zadovoljstvo" value="vs"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Satisfied</label></td>
+                        <td><input type="radio" name="zadovoljstvo" value="s"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Didn't care</label></td>
+                        <td><input type="radio" name="zadovoljstvo" value="dc"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Dissatisfied</label></td>
+                        <td><input type="radio" name="zadovoljstvo" value="ds"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Very dissatisfied</label></td>
+                        <td><input type="radio" name="zadovoljstvo" value="vds"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Further comments:</label></td>
+                        <td><textarea name="" id="" cols="30" rows="3"></textarea></td>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+        <table>
+            <tr>
+                <td><label>Bio photo:</label></td>
+                <td><input type="file" ></td>
+            </tr>
+            <tr>
+                <td><label>Location visited:</label></td>
+                <td>
+                    <select>
+                        <option value="selectLocation" selected disabled hidden>Select location</option>
+                        <option value="bg">Beograd</option>
+                        <option value="ni">Nis</option>
+                        <option value="ns">Novi Sad</option>
+                        <option value="kim">KiM</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="reset" value="RESET"></td>
+            </tr>
+        </table>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+#prviDeo, #drugiDeo{
+    width:400px;
+    border: 2px inset #454545;
+    color:rgb(3, 3, 3)
+}
+form{
+    background-image: url('pozadina1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(3, 3, 3)
+
+}
+h2{
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    color:lightblue;
+}
+input,textarea, select{
+    background-color: lightblue;
+    color:rgb(3, 3, 3)
+}
